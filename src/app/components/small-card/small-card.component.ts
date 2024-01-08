@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class SmallCardComponent {
 
+  @Input()
+  photoCover: string = "https://dz2cdn1.dzone.com/storage/temp/12195624-1.png"
+
+  @Input()
+  cardTitle: string = " Saiu a nova versão do Agular"
 }
