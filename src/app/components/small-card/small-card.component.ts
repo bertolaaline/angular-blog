@@ -14,4 +14,5 @@ export class SmallCardComponent {
 
   @Input()
   cardTitle: string = " Saiu a nova versão do Agular"
+  
 }
