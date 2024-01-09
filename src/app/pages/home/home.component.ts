@@ -12,5 +12,5 @@ import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
     imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent]
 })
 export class HomeComponent {
-
+    
 }
